@@ -173,3 +173,136 @@ footer {
   padding: 48px;
   text-align: center;
 }
+
+@media (max-width: 668px) {
+  nav {
+    margin: 12px;
+  }
+  nav ul {
+    display: none;
+  }
+  .headline {
+    width: 90%;
+    margin: auto;
+  }
+  .headline h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+  .headline-description {
+    font-size: 16px;
+    text-align: center;
+  }
+  .explore-btn-1 {
+    width: 50%;
+    margin: auto;
+    background-color: #ff900e;
+    padding: 20px 24px;
+    color: white;
+    font: bold;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  header img {
+    width: 90%;
+    display: flex;
+    padding: 12px;
+    margin: auto;
+  }
+  .team {
+    margin: 12px;
+    display: block;
+  }
+  .team-img {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 54px;
+  }
+  .team-img img {
+    width: 342px;
+    height: 342px;
+  }
+
+  .team-details {
+    width: 90%;
+    margin: auto;
+  }
+  .team-details h1 {
+    font-size: 45px;
+  }
+
+  .explore-btn-2 {
+    margin: 16px 0px;
+    background-color: #ff900e;
+    padding: 20px 24px;
+    color: white;
+    font: bold;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  .features {
+    display: block;
+    margin: 0px 64px;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .features-details {
+    width: 90%;
+  }
+  .features-details h1 {
+    font-size: 30px;
+  }
+
+  .features img {
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .features-btn {
+    margin-left: 48px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    background-color: #ff900e;
+    padding: 20px 48px;
+    color: white;
+    font: bold;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+
+  .facts-title {
+    width: 90%;
+    margin-left: 24px;
+  }
+  .facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: 48px;
+  }
+  .fact-card {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #ff900e;
+    padding: 16px;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+
+  .sponsors-title {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+  }
+  .logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+  }
+  .logo img {
+    margin-left: 24px;
+    margin-bottom: 48px;
+  }
+}
